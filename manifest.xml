@@ -1,0 +1,20 @@
+<manifest>
+    <name>Stock Price Widget</name>
+    <type>widget</type>
+    <version>1.0.0</version>
+    <description>A widget displaying stock prices on Garmin devices</description>
+    <author>Pier-Olivier Audet</author>
+    <copyright>MIT License</copyright>
+
+    <!-- Supported devices -->
+    <devices>
+        <!-- Add specific Garmin devices your app supports -->
+        <device>vivoactive_hr</device>
+        <!-- Add other supported devices as needed -->
+    </devices>
+
+    <!-- Required permissions, if any -->
+    <permissions>
+        <!-- Include any necessary permissions here -->
+    </permissions>
+</manifest>

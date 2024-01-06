@@ -1,0 +1,34 @@
+name: Build Connect IQ App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Connect IQ SDK
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'adopt'
+        java-version: '8'
+
+    - name: Build Connect IQ App
+      run: |
+        # Navigate to your Connect IQ app directory
+        cd StockPriceWidget
+
+        # Build the Connect IQ app
+        connectiq build -d
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: connectiq-app
+        path: StockPriceWidget/bin/MyApp.prg
