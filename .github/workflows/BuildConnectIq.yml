@@ -21,9 +21,6 @@ jobs:
 
     - name: Build Connect IQ App
       run: |
-        # Navigate to your Connect IQ app directory
-        cd StockPriceWidget
-
         # Build the Connect IQ app
         connectiq build -d
 
