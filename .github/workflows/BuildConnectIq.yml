@@ -20,7 +20,7 @@ jobs:
         java-version: '8'
     - name: Install Connect IQ SDK
       run: |
-         wget https://developer.garmin.com/downloads/connect-iq/sdks/connectiq-sdk-latest.zip
+         wget https://developer.garmin.com/downloads/connect-iq/sdk-manager/connectiq-sdk-manager-linux.zip
          
          unzip connectiq-sdk-latest.zip
          export PATH=$PATH:$PWD/connectiq-sdk/bin
