@@ -1,0 +1,4 @@
+<layout id="MainLayout">
+    <label id="symbolLabel" justification="Graphics.TEXT_JUSTIFY_CENTER" x="center" y="40%"/>
+    <label id="priceLabel" justification="Graphics.TEXT_JUSTIFY_CENTER" x="center" y="50%"/>
+</layout>

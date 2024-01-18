@@ -1,0 +1,6 @@
+<strings>
+    <string id="AppName">Stock Price</string>
+    <string id="AppVersionTitle">Version</string>
+    <string id="PortfolioSettingsTitle">Portfolio</string>
+    <string id="ApiKeySettingsTitle">API Key</string>
+</strings>
