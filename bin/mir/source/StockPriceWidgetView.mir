@@ -1,55 +1,55 @@
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 1; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 1; ]
 import Toybox.Graphics;
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 2; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 2; ]
 import Toybox.WatchUi;
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 3; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 3; ]
 import Toybox.Communications;
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 4; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 4; ]
 import Toybox.Lang;
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 5; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 5; ]
 import Toybox.System;
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 6; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 6; ]
 import Toybox.Application;
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 8; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 8; ]
 class StockPriceWidgetView extends WatchUi.View{
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 8; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 8; ]
     <init> {
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 9 15 ]
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 9 15 ]
         %tmp.1 = newa 0;
         putv self :portfolio %tmp.1;
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 10 15 ]
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 10 15 ]
         %tmp.2 = newa 0;
         putv self :stock %tmp.2;
     }
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 8; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 8; ]
     static
     <init> {
     }
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 9; @position = 15; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 9; @position = 15; ]
     public
     var portfolio as Array;
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 10; @position = 15; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 10; @position = 15; ]
     public
     var stock as Array;
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 12; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 12; ]
     function initialize() as Void {
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_12_26_start:
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 13 8 ]
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_12_26_start:
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 13 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_12_26_stop:
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_12_26_stop:
     }
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 16; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 16; ]
     function onLayout(dc as Dc) as Void {
     }
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 23; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 23; ]
     function onShow() as Void {
     }
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 27; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 27; ]
     function onUpdate(dc as Dc) as Void {
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_27_40_start:
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 28 8 ]
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_27_40_start:
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 28 8 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setColor;
         %tmp.3 = getm $.Toybox.Graphics;
@@ -57,74 +57,74 @@ _home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWi
         %tmp.5 = getm $.Toybox.Graphics;
         %tmp.6 = getv %tmp.5 :COLOR_BLACK;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 29 8 ]
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 29 8 ]
         %tmp.7 = lgetv %dc;
         %tmp.8 = getv function %tmp.7 :clear;
         invoke %tmp.7 %tmp.8();
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 30 8 ]
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_30_8_if_stmt:
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 30 8 ]
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_30_8_if_stmt:
         %tmp.10 = getv ? :Storage;
         %tmp.11 = getv function %tmp.10 :getValue;
         %tmp.12 = "portfolio";
         %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
         %tmp.14 = null;
         %tmp.15 = eq %tmp.13 %tmp.14;
-        bf %tmp.15 @_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_30_8_if_end;
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_30_8_if_true:
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_30_50_start:
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 31 12 ]
+        bf %tmp.15 @_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_30_8_if_end;
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_30_8_if_true:
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_30_50_start:
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 31 12 ]
         %tmp.17 = getv ? :Storage;
         %tmp.18 = getv function %tmp.17 :setValue;
         %tmp.19 = "portfolio";
         %tmp.20 = newa 0;
         invoke %tmp.17 %tmp.18(%tmp.19, %tmp.20);
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_30_50_stop:
-        goto @_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_30_8_if_end;
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_30_8_if_end:
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 33 8 ]
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_33_8_if_stmt:
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_30_50_stop:
+        goto @_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_30_8_if_end;
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_30_8_if_end:
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 33 8 ]
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_33_8_if_stmt:
         %tmp.22 = getv ? :Storage;
         %tmp.23 = getv function %tmp.22 :getValue;
         %tmp.24 = "stock";
         %tmp.25 = invoke %tmp.22 %tmp.23(%tmp.24);
         %tmp.26 = null;
         %tmp.27 = eq %tmp.25 %tmp.26;
-        bf %tmp.27 @_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_33_8_if_end;
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_33_8_if_true:
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_33_46_start:
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 34 12 ]
+        bf %tmp.27 @_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_33_8_if_end;
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_33_8_if_true:
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_33_46_start:
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 34 12 ]
         %tmp.29 = getv ? :Storage;
         %tmp.30 = getv function %tmp.29 :setValue;
         %tmp.31 = "stock";
         %tmp.32 = newa 0;
         invoke %tmp.29 %tmp.30(%tmp.31, %tmp.32);
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_33_46_stop:
-        goto @_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_33_8_if_end;
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_33_8_if_end:
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 36 8 ]
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_33_46_stop:
+        goto @_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_33_8_if_end;
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_33_8_if_end:
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 36 8 ]
         %tmp.34 = getv ? :Storage;
         %tmp.35 = getv function %tmp.34 :getValue;
         %tmp.36 = "portfolio";
         %tmp.37 = invoke %tmp.34 %tmp.35(%tmp.36);
         putv self :portfolio %tmp.37;
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 37 8 ]
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 37 8 ]
         %tmp.39 = getv ? :Storage;
         %tmp.40 = getv function %tmp.39 :getValue;
         %tmp.41 = "stock";
         %tmp.42 = invoke %tmp.39 %tmp.40(%tmp.41);
         putv self :stock %tmp.42;
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 38 8 ]
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_38_8_if_stmt:
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 38 8 ]
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_38_8_if_stmt:
         %tmp.44 = getv ? :portfolio;
         %tmp.45 = getv function %tmp.44 :size;
         %tmp.46 = invoke %tmp.44 %tmp.45();
         %tmp.47 = 10;
         %tmp.48 = gt %tmp.46 %tmp.47;
-        bf %tmp.48 @_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_38_8_if_false;
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_38_8_if_true:
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_38_34_start:
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 39 12 ]
-        [ "_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_38_34_start" "_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_38_34_stop" ]
+        bf %tmp.48 @_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_38_8_if_false;
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_38_8_if_true:
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_38_34_start:
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 39 12 ]
+        [ "_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_38_34_start" "_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_38_34_stop" ]
         %message.1 = local;
         %tmp.51 = getm $.Toybox.WatchUi;
         %tmp.52 = getv function ? %tmp.51 :Text;
@@ -155,49 +155,49 @@ _home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWi
         %tmp.82 = aputv %tmp.81 %tmp.78 %tmp.80;
         %tmp.49 = newc %tmp.52 (%tmp.82);
         lputv %message.1 %tmp.49;
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 46 12 ]
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 46 12 ]
         %tmp.83 = lgetv %message.1;
         %tmp.84 = getv function %tmp.83 :draw;
         %tmp.86 = lgetv %dc;
         invoke %tmp.83 %tmp.84(%tmp.86);
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_38_34_stop:
-        goto @_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_38_8_if_end;
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_38_8_if_false:
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 48 13 ]
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_48_13_if_stmt:
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_38_34_stop:
+        goto @_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_38_8_if_end;
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_38_8_if_false:
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 48 13 ]
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_48_13_if_stmt:
         %tmp.88 = getv ? :stock;
         %tmp.89 = getv function %tmp.88 :size;
         %tmp.90 = invoke %tmp.88 %tmp.89();
         %tmp.91 = 0;
         %tmp.92 = gt %tmp.90 %tmp.91;
-        bf %tmp.92 @_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_48_13_if_end;
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_48_13_if_true:
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_48_34_start:
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 49 12 ]
-        for @_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_test @_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_incr @_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_end;
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_init:
-        [ "_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_begin" "_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_end" ]
+        bf %tmp.92 @_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_48_13_if_end;
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_48_13_if_true:
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_48_34_start:
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 49 12 ]
+        for @_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_test @_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_incr @_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_end;
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_init:
+        [ "_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_begin" "_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_end" ]
         %i.2 = local;
         %tmp.93 = 0;
         lputv %i.2 %tmp.93;
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_test:
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_test:
         %tmp.95 = lgetv %i.2;
         %tmp.97 = getv ? :stock;
         %tmp.98 = getv function %tmp.97 :size;
         %tmp.99 = invoke %tmp.97 %tmp.98();
         %tmp.100 = lt %tmp.95 %tmp.99;
-        bf %tmp.100 @_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_end;
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_begin:
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_start:
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 50 16 ]
-        [ "_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_start" "_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_stop" ]
+        bf %tmp.100 @_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_end;
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_begin:
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_start:
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 50 16 ]
+        [ "_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_start" "_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_stop" ]
         %y.3 = local;
         %tmp.101 = 20;
         %tmp.103 = lgetv %i.2;
         %tmp.104 = mul %tmp.101 %tmp.103;
         lputv %y.3 %tmp.104;
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 51 16 ]
-        [ "_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_start" "_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_stop" ]
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 51 16 ]
+        [ "_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_start" "_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_stop" ]
         %symbol.4 = local;
         %tmp.107 = getm $.Toybox.WatchUi;
         %tmp.108 = getv function ? %tmp.107 :Text;
@@ -231,8 +231,8 @@ _home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWi
         %tmp.144 = aputv %tmp.143 %tmp.140 %tmp.142;
         %tmp.105 = newc %tmp.108 (%tmp.144);
         lputv %symbol.4 %tmp.105;
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 58 12 ]
-        [ "_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_start" "_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_stop" ]
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 58 12 ]
+        [ "_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_start" "_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_stop" ]
         %price.5 = local;
         %tmp.147 = getm $.Toybox.WatchUi;
         %tmp.148 = getv function ? %tmp.147 :Text;
@@ -271,34 +271,34 @@ _home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWi
         %tmp.189 = aputv %tmp.188 %tmp.185 %tmp.187;
         %tmp.145 = newc %tmp.148 (%tmp.189);
         lputv %price.5 %tmp.145;
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 65 16 ]
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 65 16 ]
         %tmp.190 = lgetv %symbol.4;
         %tmp.191 = getv function %tmp.190 :draw;
         %tmp.193 = lgetv %dc;
         invoke %tmp.190 %tmp.191(%tmp.193);
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 66 16 ]
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 66 16 ]
         %tmp.194 = lgetv %price.5;
         %tmp.195 = getv function %tmp.194 :draw;
         %tmp.197 = lgetv %dc;
         invoke %tmp.194 %tmp.195(%tmp.197);
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_stop:
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_incr:
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc" 49 ]
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_52_stop:
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_incr:
+[ "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" 49 ]
         %tmp.200 = lgetv %i.2;
         %tmp.201 = add %tmp.200 1;
         lputv %i.2 %tmp.201;
-        goto @_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_test;
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_end:
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_48_34_stop:
-        goto @_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_48_13_if_end;
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_48_13_if_end:
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_38_8_if_end:
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_source_StockPriceWidgetView_mc_27_40_stop:
+        goto @_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_test;
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_49_12_for_end:
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_48_34_stop:
+        goto @_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_48_13_if_end;
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_48_13_if_end:
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_38_8_if_end:
+_home_poaudet_repo_StockPriceWidget_source_StockPriceWidgetView_mc_27_40_stop:
     }
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 74; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 74; ]
     function onHide() as Void {
     }
 }
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 1; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc"; @line = 1; ]
 <init> {
 }

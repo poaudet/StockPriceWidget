@@ -3,7 +3,6 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 
 class StockPriceWidgetApp extends Application.AppBase {
-    public var portfolio;
     public var stock as Lang.Array = [];
     
     function initialize() {
@@ -12,8 +11,7 @@ class StockPriceWidgetApp extends Application.AppBase {
 
     // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
-        portfolio = toArray(Properties.getValue("portfolio"),";");
-        updatePortfolio(portfolio);
+        getPrices(Properties.getValue("portfolio"));
     }
 
     // onStop() is called when your application is exiting
@@ -28,24 +26,25 @@ class StockPriceWidgetApp extends Application.AppBase {
         // set up the response callback function
    function onReceive(responseCode as Lang.Number, data as Lang.Dictionary) as Void {
         if (responseCode == 200) {
+            for( var i = 0; i < data.size(); i++ ) {
             var newStock = {};
-            newStock.put("symbol", data["symbol"]);
-            newStock.put("bid", data["bid"]);
+            newStock.put("symbol", data[i]["symbol"]);
+            newStock.put("bid", data[i]["last_price"]);
             stock.add(newStock);
-            Storage.setValue("portfolio", portfolio);
             Storage.setValue("stock",stock);
             WatchUi.requestUpdate();
+            }
         } else {
             // Handle error here
             System.println("Error in API call. Response code: " + responseCode + " Data: " + data);
         }
    }
 
-   function getPrice(symbol) {
-       var url = "https://api.finage.co.uk/last/stock/" + symbol;                         // set the url
+   function getPrices(portfolio) {
+       var url = "https://stockprice.fly.dev/get_last_prices";                         // set the url
         
        var params = {                                              // set the parameters
-              "apikey" => "API_KEY7364NKWZGBWTK32K3EK13ITKQOYTUF8Q"
+              "symbols" => portfolio
        };
 
        var options = {                                             // set the options
@@ -61,37 +60,6 @@ class StockPriceWidgetApp extends Application.AppBase {
        // Make the Communications.makeWebRequest() call
        Communications.makeJsonRequest(url, params, options, responseCallback);
   }
-
-   function updatePortfolio(portfolio) {
-    for (var i = 0; i < portfolio.size(); i++) {
-            var symbol = portfolio[i];
-            getPrice(symbol);
-        }
-   }
-
-   function toArray(string, splitter) {
-    if (string == null){
-        string = "AAPL;GOOG";
-    }
-    var array = [];  // Starting with an array of size 4
-    var index = 0;
-    var location;
-    
-    do {
-        location = string.find(splitter);
-        if (location != null) {            
-            array.add(string.substring(0, location));
-            string = string.substring(location + 1, string.length());
-            index = index + 1;
-        }
-    } while (location != null);
-    
-    array.add(string);
-
-    return array;
-}
-
-
 }
 
 function getApp() as StockPriceWidgetApp {

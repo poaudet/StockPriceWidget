@@ -1,48 +1,48 @@
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 1; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 2; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 3; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 4; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 5; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 7; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 7; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 8; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 8; ]
+        [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 12; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 12; ]
     module Fonts {
-        [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 12; ]
+        [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 12; ]
         <init> {
         }
     }
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 15; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 15; ]
     module JsonData {
-        [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 15; ]
+        [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 15; ]
         <init> {
         }
     }
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 18; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 18; ]
     module Layouts {
-        [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 18; ]
+        [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 18; ]
         <init> {
         }
-        [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 19; ]
+        [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 19; ]
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_bin_gen_006_B2337_00_source_Rez_mcgen_19_74_start:
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" 20 12 ]
-            [ "_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_bin_gen_006_B2337_00_source_Rez_mcgen_19_74_start" "_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_bin_gen_006_B2337_00_source_Rez_mcgen_19_74_stop" ]
+_home_poaudet_repo_StockPriceWidget_bin_gen_006_B2337_00_source_Rez_mcgen_19_74_start:
+[ "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" 20 12 ]
+            [ "_home_poaudet_repo_StockPriceWidget_bin_gen_006_B2337_00_source_Rez_mcgen_19_74_start" "_home_poaudet_repo_StockPriceWidget_bin_gen_006_B2337_00_source_Rez_mcgen_19_74_stop" ]
             %rez_cmp_local_text_symbolLabel.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
@@ -77,8 +77,8 @@ _home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_bin_gen_006_B2337_0
             %tmp.38 = aputv %tmp.37 %tmp.34 %tmp.36;
             %tmp.1 = newc %tmp.4 (%tmp.38);
             lputv %rez_cmp_local_text_symbolLabel.1 %tmp.1;
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" 22 12 ]
-            [ "_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_bin_gen_006_B2337_00_source_Rez_mcgen_19_74_start" "_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_bin_gen_006_B2337_00_source_Rez_mcgen_19_74_stop" ]
+[ "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" 22 12 ]
+            [ "_home_poaudet_repo_StockPriceWidget_bin_gen_006_B2337_00_source_Rez_mcgen_19_74_start" "_home_poaudet_repo_StockPriceWidget_bin_gen_006_B2337_00_source_Rez_mcgen_19_74_stop" ]
             %rez_cmp_local_text_priceLabel.2 = local;
             %tmp.41 = getm $.Toybox.WatchUi;
             %tmp.42 = getv function ? %tmp.41 :Text;
@@ -113,7 +113,7 @@ _home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_bin_gen_006_B2337_0
             %tmp.76 = aputv %tmp.75 %tmp.72 %tmp.74;
             %tmp.39 = newc %tmp.42 (%tmp.76);
             lputv %rez_cmp_local_text_priceLabel.2 %tmp.39;
-[ "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" 24 12 ]
+[ "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" 24 12 ]
             %tmp.77 = newa Array<WatchUi.Drawable> 2;
             %tmp.79 = lgetv %rez_cmp_local_text_symbolLabel.1;
             %tmp.80 = dup %tmp.77;
@@ -122,30 +122,30 @@ _home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_bin_gen_006_B2337_0
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 1 %tmp.83;
             ret %tmp.85;
-_home_poaudet_repo_StockPriceWidget__github_StockPriceWidget_bin_gen_006_B2337_00_source_Rez_mcgen_19_74_stop:
+_home_poaudet_repo_StockPriceWidget_bin_gen_006_B2337_00_source_Rez_mcgen_19_74_stop:
         }
     }
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 28; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 28; ]
     module Menus {
-        [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 28; ]
+        [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 28; ]
         <init> {
         }
     }
-    [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 31; ]
+    [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 31; ]
     module Strings {
-        [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 31; ]
+        [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 31; ]
         <init> {
         }
-        [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 32; @position = 27; initialized = true; ]
+        [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 32; @position = 27; initialized = true; ]
         var AppVersionTitle as Symbol;
-        [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 33; @position = 27; initialized = true; ]
+        [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 33; @position = 27; initialized = true; ]
         var PortfolioSettingsTitle as Symbol;
-        [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 34; @position = 27; initialized = true; ]
+        [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 34; @position = 27; initialized = true; ]
         var AppName as Symbol;
-        [ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 35; @position = 27; initialized = true; ]
+        [ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 35; @position = 27; initialized = true; ]
         var ApiKeySettingsTitle as Symbol;
     }
 }
-[ @file = "/home/poaudet/repo/StockPriceWidget/.github/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 1; ]
+[ @file = "/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen"; @line = 1; ]
 <init> {
 }
