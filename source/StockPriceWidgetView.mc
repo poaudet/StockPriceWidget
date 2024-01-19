@@ -47,6 +47,19 @@ class StockPriceWidgetView extends WatchUi.View {
         }
         else if (stock.size() > 0){
             for( var i = 0; i < stock.size(); i++ ) {
+                var textColor;
+                if (stock[i]["price_change"] == null){
+                    textColor = Graphics.COLOR_WHITE;
+                }
+                else if (stock[i]["price_change"] > 0){
+                    textColor = Graphics.COLOR_GREEN;
+                }
+                else if (stock[i]["price_change"] < 0){
+                    textColor = Graphics.COLOR_RED;
+                }
+                else {
+                    textColor = Graphics.COLOR_WHITE;
+                }
                 var y = 20*i;
                 var symbol = new WatchUi.Text({
                 :text=>stock[i]["symbol"],
@@ -56,8 +69,8 @@ class StockPriceWidgetView extends WatchUi.View {
                 :locY=>y
             });
             var price = new WatchUi.Text({
-                :text=>stock[i]["bid"].format("%.2f")+"$",
-                :color=>Graphics.COLOR_WHITE,
+                :text=>stock[i]["last_price"].format("%.2f")+"$",
+                :color=>textColor,
                 :font=>Graphics.FONT_MEDIUM,
                 :locX =>WatchUi.LAYOUT_HALIGN_RIGHT,
                 :locY=>y

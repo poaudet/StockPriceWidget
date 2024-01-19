@@ -2,8 +2,8 @@
 <debugInfo>
     <manifest filename="/home/poaudet/repo/StockPriceWidget/manifest.xml"/>
     <pcToLineNum>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="1" lineNum="65" parent="globals" pc="268435460" symbol="getApp"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="1" lineNum="66" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="1" lineNum="66" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="1" lineNum="67" parent="globals" pc="268435470" symbol="getApp"/>
         <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="2" lineNum="8" parent="globals/StockPriceWidgetView" pc="268435486" symbol="&lt;init&gt;"/>
         <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="2" lineNum="9" parent="globals/StockPriceWidgetView" pc="268435504" symbol="&lt;init&gt;"/>
         <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="2" lineNum="10" parent="globals/StockPriceWidgetView" pc="268435518" symbol="&lt;init&gt;"/>
@@ -25,40 +25,49 @@
         <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="48" parent="globals/StockPriceWidgetView" pc="268435903" symbol="onUpdate"/>
         <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="49" parent="globals/StockPriceWidgetView" pc="268435929" symbol="onUpdate"/>
         <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="50" parent="globals/StockPriceWidgetView" pc="268435959" symbol="onUpdate"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="51" parent="globals/StockPriceWidgetView" pc="268435969" symbol="onUpdate"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="58" parent="globals/StockPriceWidgetView" pc="268436077" symbol="onUpdate"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="65" parent="globals/StockPriceWidgetView" pc="268436205" symbol="onUpdate"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="66" parent="globals/StockPriceWidgetView" pc="268436219" symbol="onUpdate"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" id="8" lineNum="7" parent="globals/Rez" pc="268436250" symbol="&lt;init&gt;"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="9" lineNum="5" parent="globals/StockPriceWidgetApp" pc="268436269" symbol="&lt;init&gt;"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="9" lineNum="6" parent="globals/StockPriceWidgetApp" pc="268436287" symbol="&lt;init&gt;"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="10" lineNum="13" parent="globals/StockPriceWidgetApp" pc="268436302" symbol="onStart"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="10" lineNum="14" parent="globals/StockPriceWidgetApp" pc="268436304" symbol="onStart"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="11" lineNum="22" parent="globals/StockPriceWidgetApp" pc="268436337" symbol="getInitialView"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="11" lineNum="23" parent="globals/StockPriceWidgetApp" pc="268436339" symbol="getInitialView"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="12" lineNum="8" parent="globals/StockPriceWidgetApp" pc="268436380" symbol="initialize"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="12" lineNum="9" parent="globals/StockPriceWidgetApp" pc="268436382" symbol="initialize"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="27" parent="globals/StockPriceWidgetApp" pc="268436401" symbol="onReceive"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="28" parent="globals/StockPriceWidgetApp" pc="268436405" symbol="onReceive"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="29" parent="globals/StockPriceWidgetApp" pc="268436416" symbol="onReceive"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="30" parent="globals/StockPriceWidgetApp" pc="268436440" symbol="onReceive"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="31" parent="globals/StockPriceWidgetApp" pc="268436448" symbol="onReceive"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="32" parent="globals/StockPriceWidgetApp" pc="268436476" symbol="onReceive"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="33" parent="globals/StockPriceWidgetApp" pc="268436504" symbol="onReceive"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="34" parent="globals/StockPriceWidgetApp" pc="268436524" symbol="onReceive"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="35" parent="globals/StockPriceWidgetApp" pc="268436553" symbol="onReceive"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="39" parent="globals/StockPriceWidgetApp" pc="268436585" symbol="onReceive"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="14" lineNum="43" parent="globals/StockPriceWidgetApp" pc="268436621" symbol="getPrices"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="14" lineNum="44" parent="globals/StockPriceWidgetApp" pc="268436625" symbol="getPrices"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="14" lineNum="46" parent="globals/StockPriceWidgetApp" pc="268436632" symbol="getPrices"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="14" lineNum="50" parent="globals/StockPriceWidgetApp" pc="268436650" symbol="getPrices"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="14" lineNum="58" parent="globals/StockPriceWidgetApp" pc="268436711" symbol="getPrices"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="14" lineNum="61" parent="globals/StockPriceWidgetApp" pc="268436729" symbol="getPrices"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="15" lineNum="18" parent="globals/StockPriceWidgetApp" pc="268436756" symbol="onStop"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" id="16" lineNum="19" parent="globals/Rez/Layouts" pc="268436759" symbol="MainLayout"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" id="16" lineNum="20" parent="globals/Rez/Layouts" pc="268436771" symbol="MainLayout"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" id="16" lineNum="22" parent="globals/Rez/Layouts" pc="268436870" symbol="MainLayout"/>
-        <entry filename="/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" id="16" lineNum="24" parent="globals/Rez/Layouts" pc="268436969" symbol="MainLayout"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="51" parent="globals/StockPriceWidgetView" pc="268435959" symbol="onUpdate"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="52" parent="globals/StockPriceWidgetView" pc="268435981" symbol="onUpdate"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="54" parent="globals/StockPriceWidgetView" pc="268435991" symbol="onUpdate"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="55" parent="globals/StockPriceWidgetView" pc="268436017" symbol="onUpdate"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="57" parent="globals/StockPriceWidgetView" pc="268436027" symbol="onUpdate"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="58" parent="globals/StockPriceWidgetView" pc="268436053" symbol="onUpdate"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="61" parent="globals/StockPriceWidgetView" pc="268436063" symbol="onUpdate"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="63" parent="globals/StockPriceWidgetView" pc="268436070" symbol="onUpdate"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="64" parent="globals/StockPriceWidgetView" pc="268436080" symbol="onUpdate"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="71" parent="globals/StockPriceWidgetView" pc="268436188" symbol="onUpdate"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="78" parent="globals/StockPriceWidgetView" pc="268436313" symbol="onUpdate"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetView.mc" id="7" lineNum="79" parent="globals/StockPriceWidgetView" pc="268436327" symbol="onUpdate"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" id="8" lineNum="7" parent="globals/Rez" pc="268436358" symbol="&lt;init&gt;"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="9" lineNum="5" parent="globals/StockPriceWidgetApp" pc="268436377" symbol="&lt;init&gt;"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="9" lineNum="6" parent="globals/StockPriceWidgetApp" pc="268436395" symbol="&lt;init&gt;"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="10" lineNum="13" parent="globals/StockPriceWidgetApp" pc="268436410" symbol="onStart"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="10" lineNum="14" parent="globals/StockPriceWidgetApp" pc="268436412" symbol="onStart"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="11" lineNum="22" parent="globals/StockPriceWidgetApp" pc="268436445" symbol="getInitialView"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="11" lineNum="23" parent="globals/StockPriceWidgetApp" pc="268436447" symbol="getInitialView"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="12" lineNum="8" parent="globals/StockPriceWidgetApp" pc="268436488" symbol="initialize"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="12" lineNum="9" parent="globals/StockPriceWidgetApp" pc="268436490" symbol="initialize"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="27" parent="globals/StockPriceWidgetApp" pc="268436509" symbol="onReceive"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="28" parent="globals/StockPriceWidgetApp" pc="268436513" symbol="onReceive"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="29" parent="globals/StockPriceWidgetApp" pc="268436524" symbol="onReceive"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="30" parent="globals/StockPriceWidgetApp" pc="268436548" symbol="onReceive"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="31" parent="globals/StockPriceWidgetApp" pc="268436556" symbol="onReceive"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="32" parent="globals/StockPriceWidgetApp" pc="268436584" symbol="onReceive"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="33" parent="globals/StockPriceWidgetApp" pc="268436612" symbol="onReceive"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="34" parent="globals/StockPriceWidgetApp" pc="268436640" symbol="onReceive"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="35" parent="globals/StockPriceWidgetApp" pc="268436660" symbol="onReceive"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="36" parent="globals/StockPriceWidgetApp" pc="268436689" symbol="onReceive"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="13" lineNum="40" parent="globals/StockPriceWidgetApp" pc="268436721" symbol="onReceive"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="14" lineNum="44" parent="globals/StockPriceWidgetApp" pc="268436757" symbol="getPrices"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="14" lineNum="45" parent="globals/StockPriceWidgetApp" pc="268436761" symbol="getPrices"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="14" lineNum="47" parent="globals/StockPriceWidgetApp" pc="268436768" symbol="getPrices"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="14" lineNum="51" parent="globals/StockPriceWidgetApp" pc="268436786" symbol="getPrices"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="14" lineNum="59" parent="globals/StockPriceWidgetApp" pc="268436847" symbol="getPrices"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="14" lineNum="62" parent="globals/StockPriceWidgetApp" pc="268436865" symbol="getPrices"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/source/StockPriceWidgetApp.mc" id="15" lineNum="18" parent="globals/StockPriceWidgetApp" pc="268436892" symbol="onStop"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" id="16" lineNum="19" parent="globals/Rez/Layouts" pc="268436895" symbol="MainLayout"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" id="16" lineNum="20" parent="globals/Rez/Layouts" pc="268436907" symbol="MainLayout"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" id="16" lineNum="22" parent="globals/Rez/Layouts" pc="268437006" symbol="MainLayout"/>
+        <entry filename="/home/poaudet/repo/StockPriceWidget/bin/gen/006-B2337-00/source/Rez.mcgen" id="16" lineNum="24" parent="globals/Rez/Layouts" pc="268437105" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -118,25 +127,26 @@
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268436249" name="dc" stackId="1" startPc="268435557"/>
+        <entry arg="true" endPc="268436357" name="dc" stackId="1" startPc="268435557"/>
         <entry endPc="268435899" name="message" stackId="2" startPc="268435787"/>
-        <entry endPc="268436245" name="i" stackId="3" startPc="268435959"/>
-        <entry endPc="268436232" name="y" stackId="4" startPc="268435959"/>
-        <entry endPc="268436232" name="symbol" stackId="5" startPc="268435959"/>
-        <entry endPc="268436232" name="price" stackId="6" startPc="268435959"/>
-        <entry arg="true" endPc="268436336" name="state" stackId="1" startPc="268436302"/>
-        <entry arg="true" endPc="268436620" name="responseCode" stackId="1" startPc="268436401"/>
-        <entry arg="true" endPc="268436620" name="data" stackId="2" startPc="268436401"/>
-        <entry endPc="268436581" name="i" stackId="3" startPc="268436440"/>
-        <entry endPc="268436568" name="newStock" stackId="4" startPc="268436440"/>
-        <entry arg="true" endPc="268436755" name="portfolio" stackId="1" startPc="268436621"/>
-        <entry endPc="268436754" name="url" stackId="2" startPc="268436625"/>
-        <entry endPc="268436754" name="params" stackId="3" startPc="268436625"/>
-        <entry endPc="268436754" name="options" stackId="4" startPc="268436625"/>
-        <entry endPc="268436754" name="responseCallback" stackId="5" startPc="268436625"/>
-        <entry arg="true" endPc="268436995" name="dc" stackId="1" startPc="268436759"/>
-        <entry endPc="268436995" name="rez_cmp_local_text_symbolLabel" stackId="2" startPc="268436771"/>
-        <entry endPc="268436995" name="rez_cmp_local_text_priceLabel" stackId="3" startPc="268436771"/>
+        <entry endPc="268436353" name="i" stackId="3" startPc="268435959"/>
+        <entry endPc="268436340" name="textColor" stackId="4" startPc="268435959"/>
+        <entry endPc="268436340" name="y" stackId="5" startPc="268435959"/>
+        <entry endPc="268436340" name="symbol" stackId="6" startPc="268435959"/>
+        <entry endPc="268436340" name="price" stackId="7" startPc="268435959"/>
+        <entry arg="true" endPc="268436444" name="state" stackId="1" startPc="268436410"/>
+        <entry arg="true" endPc="268436756" name="responseCode" stackId="1" startPc="268436509"/>
+        <entry arg="true" endPc="268436756" name="data" stackId="2" startPc="268436509"/>
+        <entry endPc="268436717" name="i" stackId="3" startPc="268436548"/>
+        <entry endPc="268436704" name="newStock" stackId="4" startPc="268436548"/>
+        <entry arg="true" endPc="268436891" name="portfolio" stackId="1" startPc="268436757"/>
+        <entry endPc="268436890" name="url" stackId="2" startPc="268436761"/>
+        <entry endPc="268436890" name="params" stackId="3" startPc="268436761"/>
+        <entry endPc="268436890" name="options" stackId="4" startPc="268436761"/>
+        <entry endPc="268436890" name="responseCallback" stackId="5" startPc="268436761"/>
+        <entry arg="true" endPc="268437131" name="dc" stackId="1" startPc="268436895"/>
+        <entry endPc="268437131" name="rez_cmp_local_text_symbolLabel" stackId="2" startPc="268436907"/>
+        <entry endPc="268437131" name="rez_cmp_local_text_priceLabel" stackId="3" startPc="268436907"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -177,36 +187,36 @@
         <functionEntry accessMode="public" name="onHide" parent="StockPriceWidgetView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436249" name="onUpdate" parent="StockPriceWidgetView" startPc="268435557">
+        <functionEntry accessMode="public" endPc="268436357" name="onUpdate" parent="StockPriceWidgetView" startPc="268435557">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436268" name="&lt;init&gt;" parent="Rez" startPc="268436250">
+        <functionEntry accessMode="public" endPc="268436376" name="&lt;init&gt;" parent="Rez" startPc="268436358">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436301" name="&lt;init&gt;" parent="StockPriceWidgetApp" startPc="268436269">
+        <functionEntry accessMode="public" endPc="268436409" name="&lt;init&gt;" parent="StockPriceWidgetApp" startPc="268436377">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436336" name="onStart" parent="StockPriceWidgetApp" startPc="268436302">
+        <functionEntry accessMode="public" endPc="268436444" name="onStart" parent="StockPriceWidgetApp" startPc="268436410">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436379" name="getInitialView" parent="StockPriceWidgetApp" startPc="268436337">
+        <functionEntry accessMode="public" endPc="268436487" name="getInitialView" parent="StockPriceWidgetApp" startPc="268436445">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436400" name="initialize" parent="StockPriceWidgetApp" startPc="268436380">
+        <functionEntry accessMode="public" endPc="268436508" name="initialize" parent="StockPriceWidgetApp" startPc="268436488">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436620" name="onReceive" parent="StockPriceWidgetApp" startPc="268436401">
+        <functionEntry accessMode="public" endPc="268436756" name="onReceive" parent="StockPriceWidgetApp" startPc="268436509">
             <param id="responseCode"/>
             <param id="data"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436755" name="getPrices" parent="StockPriceWidgetApp" startPc="268436621">
+        <functionEntry accessMode="public" endPc="268436891" name="getPrices" parent="StockPriceWidgetApp" startPc="268436757">
             <param id="portfolio"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436758" name="onStop" parent="StockPriceWidgetApp" startPc="268436756">
+        <functionEntry accessMode="public" endPc="268436894" name="onStop" parent="StockPriceWidgetApp" startPc="268436892">
             <param id="state"/>
             <documentation/>
         </functionEntry>
@@ -228,7 +238,7 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436995" name="MainLayout" parent="Layouts" startPc="268436759">
+        <functionEntry accessMode="public" endPc="268437131" name="MainLayout" parent="Layouts" startPc="268436895">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

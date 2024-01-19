@@ -29,7 +29,8 @@ class StockPriceWidgetApp extends Application.AppBase {
             for( var i = 0; i < data.size(); i++ ) {
             var newStock = {};
             newStock.put("symbol", data[i]["symbol"]);
-            newStock.put("bid", data[i]["last_price"]);
+            newStock.put("last_price", data[i]["last_price"]);
+            newStock.put("price_change", data[i]["price_change"]);
             stock.add(newStock);
             Storage.setValue("stock",stock);
             WatchUi.requestUpdate();
